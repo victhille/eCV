@@ -1,0 +1,242 @@
+/* GENERAl */
+
+*
+{
+    margin: 0px;
+    padding: 0;
+}
+body
+{
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+}
+h1
+{
+    font-family: 'Crete Round', serif;
+    font-size: 45px;
+}
+h2{
+    font-family: 'Crete Round', serif;
+    font-size: 30px;
+    color: #444;
+    text-align: center;
+    padding-bottom: 20px;
+}
+h3
+{
+    font-family: 'Crete Round', serif;
+    font-size: 30px;
+    color: #444;
+    text-align: center;
+}
+h4
+{
+    font-family: 'Crete Round', serif;
+    font-size: 30px;
+    color: #444;
+}
+.wrapper
+{
+    width: 940px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.orange
+{
+    color: #ff7a00;
+}
+ul
+{
+    list-style: none;
+}
+a
+{
+    text-decoration: none;
+    color: #444;
+}
+small
+{
+    font-size: 13px;
+    font-style: italic;
+}
+.clear
+{
+    clear: both;
+}
+
+/* Header */
+
+header h1
+{
+    color: #444;
+    margin-top: 50px;
+    text-align: center;
+    padding-bottom: 20px 0;
+}
+
+/* PROFIL */
+
+#Profil
+{
+    background: url(image/cool-background.png)
+}
+.PP
+{
+    width: 280px;
+    display: block;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 50%;
+}
+
+/* Info */
+
+#info
+{
+    background-color: #efefef;
+    padding: 60px 0;
+}
+
+#info article
+{
+    width: 460px;
+    height: 270px;
+    float: left;
+    border-radius: 10px;
+}
+
+#info article:first-child
+{
+    margin-right: 20px;
+}
+
+article h4
+{
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#info p
+{
+    text-align: start;
+    margin: 10px
+}
+
+#info-2
+{
+    background-color: #efefef;
+    padding: 60px 0;
+}
+
+#info-2 article
+{
+    width: 460px;
+    height: 270px;
+    float: left;
+    border-radius: 10px;
+}
+
+#info-2 article:first-child
+{
+    margin-right: 20px;
+}
+
+#info-2 article h4
+{
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#info-2 p
+{
+    text-align: start;
+    margin: 10px;
+}
+
+/* Compétences */
+
+#interet ul
+{
+    margin: 80px 0;
+}
+#interet ul li
+{
+    width: 300px;
+    float:left;
+    padding-top: 150px;
+    text-align: center;
+    margin-right: 10px;
+}
+#interet h4
+{
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    }
+#interet p
+{
+    margin-bottom: 20px;
+}
+
+#centre-interet-1
+{
+    background: url(image/code-logo.png) no-repeat top center;
+    background-size: 30%;
+    background-position: center top 10%;
+}
+#centre-interet-2
+{
+    background: url(image/ordi-logo.png) no-repeat top center;
+    background-size: 30%;
+    background-position: center top 10%;
+}
+#centre-interet-3
+{
+    background: url(image/tennis-logo.png) no-repeat top center;
+    background-size: 30%;
+    background-position: center top 10%;
+}
+#centre-interet-4
+{
+    background: url(image/play-logo.png) no-repeat top center;
+    background-size: 30%;
+    background-position: center top 20%;
+}
+#centre-interet-5
+{
+    background: url(image/montagne-logo.png) no-repeat top center;
+    background-size: 30%;
+    background-position: center top 10%;
+}
+#centre-interet-6
+{
+    background: url(image/manette-logo.png) no-repeat top center;
+    background-size: 30%;
+    background-position: center top 10%;
+}
+
+/* Pied de page */
+
+.footer
+{
+    height: 140px;
+    background-color: #B9770E;
+    padding: 2%;
+}
+.footer h5
+{
+    color: white;
+    text-align: center;
+}
+.copyright
+{
+    text-align: center;
+    font-weight: bold;
+    padding-top: 20px;
+    color: #3A4D45;
+}
